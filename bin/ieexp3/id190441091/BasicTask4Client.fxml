@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ieexp3.id190441091.BasicTask4ClientController">
+   <children>
+      <Button fx:id="buttonConnect" layoutX="135.0" layoutY="156.0" mnemonicParsing="false" onAction="#handleButtonConnectAction" prefHeight="26.0" prefWidth="254.0" text="Connect" />
+      <Button fx:id="buttonDisconnect" layoutX="314.0" layoutY="303.0" mnemonicParsing="false" onAction="#handleButtonDisconnectAction" prefHeight="26.0" prefWidth="75.0" text="Disconnect" />
+      <Button fx:id="buttonRun" layoutX="314.0" layoutY="197.0" mnemonicParsing="false" onAction="#handleButtonRunAction" prefHeight="91.0" prefWidth="75.0" text="Run" />
+      <Label layoutX="135.0" layoutY="200.0" prefHeight="26.0" prefWidth="69.0" text="1st Hole No." />
+      <TextField fx:id="textField1" layoutX="229.0" layoutY="200.0" prefHeight="22.0" prefWidth="30.0" />
+      <Label layoutX="139.0" layoutY="232.0" prefHeight="26.0" prefWidth="75.0" text="2nd Hole No." />
+      <TextField fx:id="textField2" layoutX="229.0" layoutY="232.0" prefHeight="22.0" prefWidth="30.0" />
+      <Label layoutX="139.0" layoutY="265.0" prefHeight="26.0" prefWidth="75.0" text="3rd Hole No." />
+      <TextField fx:id="textField3" layoutX="229.0" layoutY="265.0" prefHeight="22.0" prefWidth="30.0" />
+      <Label layoutX="135.0" layoutY="114.0" prefHeight="26.0" prefWidth="51.0" text="Address" />
+      <TextField fx:id="textFieldAddress" layoutX="186.0" layoutY="114.0" prefHeight="25.0" prefWidth="91.0" />
+      <Label layoutX="288.0" layoutY="114.0" prefHeight="26.0" prefWidth="51.0" text="port" />
+      <TextField fx:id="textFieldPort" layoutX="326.0" layoutY="114.0" prefHeight="25.0" prefWidth="51.0" />
+      <Label fx:id="labelState" layoutX="135.0" layoutY="301.0" prefHeight="22.0" prefWidth="85.0" text="State:" />
+   </children>
+</AnchorPane>
